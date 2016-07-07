@@ -1,11 +1,8 @@
 {
   "name": "email-styles",
   "version": "1.0.0",
-  "description": "Small CSS framework for emails. Stylizes emails for the likes of gmail.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "Light weight CSS framework for emails.",
+  "main": "dist/style.min.css",
   "repository": {
     "type": "git",
     "url": "https://github.com/10quality/email-styles.git"
@@ -15,7 +12,7 @@
     "framework",
     "email"
   ],
-  "author": "",
+  "author": "10Quality <info@10quality.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/10quality/email-styles/issues"

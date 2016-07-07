@@ -1,0 +1,23 @@
+{
+    "name": "email-styles",
+    "description": "Light weight CSS framework for emails.",
+    "main": [
+        "dist/style.min.css"
+    ],
+    "homepage": "https://github.com/10quality/email-styles",
+    "license": "MIT",
+    "keywords": [
+        "css",
+        "framework",
+        "email"
+    ],
+    "authors": [
+        "Alejandro Mostajo <amostajo@gmail.com>",
+        "10Quality <info@10quality.com>"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/10quality/email-styles.git"
+    },
+    "private": false
+}
