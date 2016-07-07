@@ -77,7 +77,8 @@ a[class="btn btn-small"] {
   border-radius: 5px;
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 14px; }
+  font-size: 14px;
+  text-decoration: none; }
   button[class="btn"]:link,
   a[class="btn"]:link,
   button[class="btn btn-small"]:link,
@@ -107,7 +108,8 @@ a[class="btn btn-default btn-small"] {
   border-radius: 5px;
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 14px; }
+  font-size: 14px;
+  text-decoration: none; }
   button[class="btn btn-default"]:hover,
   a[class="btn btn-default"]:hover,
   button[class="btn btn-default btn-small"]:hover,
@@ -140,7 +142,8 @@ a[class="btn btn-primary btn-small"] {
   border-radius: 5px;
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 14px; }
+  font-size: 14px;
+  text-decoration: none; }
   button[class="btn btn-primary"]:hover,
   a[class="btn btn-primary"]:hover,
   button[class="btn btn-primary btn-small"]:hover,
@@ -173,7 +176,8 @@ a[class="btn btn-success btn-small"] {
   border-radius: 5px;
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 14px; }
+  font-size: 14px;
+  text-decoration: none; }
   button[class="btn btn-success"]:hover,
   a[class="btn btn-success"]:hover,
   button[class="btn btn-success btn-small"]:hover,
@@ -206,7 +210,8 @@ a[class="btn btn-danger btn-small"] {
   border-radius: 5px;
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 14px; }
+  font-size: 14px;
+  text-decoration: none; }
   button[class="btn btn-danger"]:hover,
   a[class="btn btn-danger"]:hover,
   button[class="btn btn-danger btn-small"]:hover,
@@ -239,7 +244,8 @@ a[class="btn btn-warning btn-small"] {
   border-radius: 5px;
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 14px; }
+  font-size: 14px;
+  text-decoration: none; }
   button[class="btn btn-warning"]:hover,
   a[class="btn btn-warning"]:hover,
   button[class="btn btn-warning btn-small"]:hover,

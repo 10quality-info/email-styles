@@ -15,7 +15,9 @@ To use the framework, simply copy the content of the minified version, located a
 ```html
 <html>
     <head>
-      <!-- COPY CONTENT FROM style.min.css HERE!!!!!! -->  
+        <style type="text/css">
+            <!-- COPY CONTENT FROM style.min.css HERE!!!!!! -->
+        </style>
     </head>
 </html>
 ```
@@ -26,7 +28,9 @@ This is the recomended structure to use with the framework:
 ```html
 <html>
     <head>
-      <!-- COPY CONTENT FROM style.min.css HERE!!!!!! -->  
+        <style type="text/css">
+            <!-- COPY CONTENT FROM style.min.css HERE!!!!!! -->
+        </style>
     </head>
     <body>
 
