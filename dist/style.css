@@ -473,4 +473,39 @@ div[class="pull-right"],
 span[class="pull-right"] {
   float: right; }
 
+div[class="card"],
+div[class="card card-primary"],
+div[class="card card-success"],
+div[class="card card-danger"],
+div[class="card card-warning"],
+div[class="card card-info"] {
+  padding: 15px;
+  border-radius: 7px;
+  border: 1px solid #C3C3C3; }
+
+div[class="card card-primary"] {
+  background-color: #1976D2;
+  border-color: #2196F3;
+  color: #FFF; }
+
+div[class="card card-success"] {
+  background-color: #388E3C;
+  border-color: #4CAF50;
+  color: #FFF; }
+
+div[class="card card-danger"] {
+  background-color: #D32F2F;
+  border-color: #F44336;
+  color: #FFF; }
+
+div[class="card card-warning"] {
+  background-color: #FFA000;
+  border-color: #FFC107;
+  color: #FFF; }
+
+div[class="card card-info"] {
+  background-color: #03A9F4;
+  border-color: #0288D1;
+  color: #FFF; }
+
 /*# sourceMappingURL=style.css.map */
