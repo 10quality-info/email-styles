@@ -4,3 +4,52 @@
 // @author 10Quality
 // @license MIT
 // Version 1.0.0
+
+@import 'colors';
+
+div[class="card"],,
+div[class="card card-primary"],
+div[class="card card-success"],
+div[class="card card-danger"],
+div[class="card card-warning"],
+div[class="card card-info"]
+{
+    padding: 15px;
+    border-radius: 7px;
+    border: 1px solid #C3C3C3;
+}
+
+div[class="card card-primary"]
+{
+    background-color: $c-primary;
+    border-color: $c-primary-hover;
+    color: $c-white;
+}
+
+div[class="card card-success"]
+{
+    background-color: $c-success;
+    border-color: $c-success-hover;
+    color: $c-white;
+}
+
+div[class="card card-danger"]
+{
+    background-color: $c-danger;
+    border-color: $c-danger-hover;
+    color: $c-white;
+}
+
+div[class="card card-warning"]
+{
+    background-color: $c-warning;
+    border-color: $c-warning-hover;
+    color: $c-white;
+}
+
+div[class="card card-info"]
+{
+    background-color: $c-info;
+    border-color: $c-info-hover;
+    color: $c-white;
+}
