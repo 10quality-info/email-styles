@@ -1,0 +1,86 @@
+// Standard TAG styling.
+//
+// @author Alejandro Mostajo
+// @author 10Quality
+// @license MIT
+// Version 1.0.0
+
+@import 'colors';
+
+html, body
+{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: $c-page-background;
+}
+
+div[class="body"]
+{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: $c-page-background;
+}
+
+h1, h1[class="es"]
+{
+    margin: 0 0 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid $c-separator;
+    color: $c-heading;
+}
+
+h2, h3, h4,
+h2[class="es"], h3[class="es"], h4[class="es"]
+{
+    margin: 20px 0;
+    padding: 5px 0;
+    border-bottom: 1px solid $c-separator;
+    color: $c-heading;
+}
+
+p, p[class="es"]
+{
+    text-align: justify;
+}
+
+div[class="container"]
+{
+    background-color: #F4F4F4;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px auto;
+    max-width: 650px;
+    width: auto;
+    line-height: 20px;
+}
+
+div[class="content"]
+{
+    background-color: $c-white;
+    border: 1px solid $c-gray-lighter;
+    border-radius: 10px;
+    padding: 20px;
+
+    p
+    {
+        &:last-child
+        {
+            margin: 0;
+        }
+    }
+}
+
+div[class="header"]
+{
+    margin-bottom: 5px;
+}
+
+div[class="footer"]
+{
+    font-size: 12px;
+    color: $c-gray;
+    font-weight: bold;
+    padding: 10px 5px 0 5px;
+}

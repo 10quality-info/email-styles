@@ -1,0 +1,15 @@
+// Mixins.
+//
+// @author Alejandro Mostajo
+// @author 10Quality
+// @license MIT
+// Version 1.0.0
+
+@mixin btn()
+{
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+}

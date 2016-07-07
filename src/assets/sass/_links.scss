@@ -1,0 +1,229 @@
+// Links and buttons styling.
+//
+// @author Alejandro Mostajo
+// @author 10Quality
+// @license MIT
+// Version 1.0.0
+
+@import 'colors';
+@import 'mixins';
+
+a[class="es"]
+{
+    color: $c-link;
+    font-weight: bold;
+    text-decoration: none;
+
+    &:active
+    {
+        color: $c-link;
+    }
+
+    &:hover
+    {
+        color: $c-link-hover;
+    }
+}
+
+button[class="btn"],
+a[class="btn"],
+button[class="btn btn-small"],
+a[class="btn btn-small"]
+{
+    border: 1px solid $c-button;
+    color: $c-button;
+    @include btn();
+
+    &:link
+    {
+        color: $c-button;
+    }
+
+    &:active
+    {
+        color: $c-button;
+    }
+
+    &:hover
+    {
+        border: 1px solid $c-button-hover;
+        color: $c-button-hover;
+        cursor: pointer;
+    }
+}
+
+button[class="btn btn-default"],
+a[class="btn btn-default"],
+button[class="btn btn-default btn-small"],
+a[class="btn btn-default btn-small"]
+{
+    border: none;
+    background-color: $c-default;
+    color: $c-default-text;
+    @include btn();
+
+    &:hover
+    {
+        background-color: $c-default-hover;
+        color: $c-default-hover-text;
+    }
+
+    &:link
+    {
+        border: none;
+        background-color: $c-default;
+        color: $c-default-text;
+    }
+
+    &:active
+    {
+        border: none;
+        background-color: $c-default;
+        color: $c-default-text;
+    }
+}
+
+button[class="btn btn-primary"],
+a[class="btn btn-primary"],
+button[class="btn btn-primary btn-small"],
+a[class="btn btn-primary btn-small"]
+{
+    border: none;
+    background-color: $c-primary;
+    color: $c-primary-text;
+    @include btn();
+
+    &:hover
+    {
+        background-color: $c-primary-hover;
+        color: $c-primary-hover-text;
+    }
+
+    &:link
+    {
+        border: none;
+        background-color: $c-primary;
+        color: $c-primary-text;
+    }
+
+    &:active
+    {
+        border: none;
+        background-color: $c-primary;
+        color: $c-primary-text;
+    }
+}
+
+button[class="btn btn-success"],
+a[class="btn btn-success"],
+button[class="btn btn-success btn-small"],
+a[class="btn btn-success btn-small"]
+{
+    border: none;
+    background-color: $c-success;
+    color: $c-success-text;
+    @include btn();
+
+    &:hover
+    {
+        background-color: $c-success-hover;
+        color: $c-success-hover-text;
+    }
+
+    &:link
+    {
+        border: none;
+        background-color: $c-success;
+        color: $c-success-text;
+    }
+
+    &:active
+    {
+        border: none;
+        background-color: $c-success;
+        color: $c-success-text;
+    }
+}
+
+button[class="btn btn-danger"],
+a[class="btn btn-danger"],
+button[class="btn btn-danger btn-small"],
+a[class="btn btn-danger btn-small"]
+{
+    border: none;
+    background-color: $c-danger;
+    color: $c-danger-text;
+    @include btn();
+
+    &:hover
+    {
+        background-color: $c-danger-hover;
+        color: $c-danger-hover-text;
+    }
+
+    &:link
+    {
+        border: none;
+        background-color: $c-danger;
+        color: $c-danger-text;
+    }
+
+    &:active
+    {
+        border: none;
+        background-color: $c-danger;
+        color: $c-danger-text;
+    }
+}
+
+button[class="btn btn-warning"],
+a[class="btn btn-warning"],
+button[class="btn btn-warning btn-small"],
+a[class="btn btn-warning btn-small"]
+{
+    border: none;
+    background-color: $c-warning;
+    color: $c-warning-text;
+    @include btn();
+
+    &:hover
+    {
+        background-color: $c-warning-hover;
+        color: $c-warning-hover-text;
+    }
+
+    &:link
+    {
+        border: none;
+        background-color: $c-warning;
+        color: $c-warning-text;
+    }
+
+    &:active
+    {
+        border: none;
+        background-color: $c-warning;
+        color: $c-warning-text;
+    }
+}
+
+@mixin small()
+{
+}
+
+button[class="btn btn-small"],
+a[class="btn btn-small"],
+button[class="btn btn-default btn-small"],
+a[class="btn btn-default btn-small"],
+button[class="btn btn-primary btn-small"],
+a[class="btn btn-primary btn-small"],
+button[class="btn btn-success btn-small"],
+a[class="btn btn-success btn-small"],
+button[class="btn btn-danger btn-small"],
+a[class="btn btn-danger btn-small"],
+button[class="btn btn-warning btn-small"],
+a[class="btn btn-warning btn-small"]
+{
+    font-size: 12px;
+    padding: 4px 5px;
+}

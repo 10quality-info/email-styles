@@ -1,0 +1,78 @@
+// Color definitions.
+//
+// @author Alejandro Mostajo
+// @author 10Quality
+// @license MIT
+// Version 1.0.0
+
+$c-white:                   #FFF;
+
+// Color displayed as background of the email
+// @since 1.0.0
+$c-page-background:         #6B6B6B;
+
+// Color separator, aplied to borders and others
+// @since 1.0.0
+$c-separator:               #EFEFEF;
+
+// Color displayed for headings
+// @since 1.0.0
+$c-heading:                 #353535;
+
+// Color for links
+// @since 1.0.0
+$c-link:                    #1976D2;
+$c-link-hover:              #2196F3;
+
+// Standard color for buttons
+// @since 1.0.0
+$c-button:                  #1976D2;
+$c-button-hover:            #2196F3;
+
+// Default color for actions
+// - text - Text color displayed over default
+// @since 1.0.0
+$c-default:                 #f2f2f2;
+$c-default-text:            #4E6694;
+$c-default-hover:           #E8E8E8;
+$c-default-hover-text:      #4E80E0;
+
+// Primary color for actions
+// @since 1.0.0
+$c-primary:                 #1976D2;
+$c-primary-text:            $c-white;
+$c-primary-hover:           #2196F3;
+$c-primary-hover-text:      $c-white;
+
+// Primary color for actions
+// @since 1.0.0
+$c-success:                 #388E3C;
+$c-success-text:            $c-white;
+$c-success-hover:           #4CAF50;
+$c-success-hover-text:      $c-white;
+
+// Primary color for actions
+// @since 1.0.0
+$c-danger:                  #D32F2F;
+$c-danger-text:             $c-white;
+$c-danger-hover:            #F44336;
+$c-danger-hover-text:       $c-white;
+
+// Primary color for actions
+// @since 1.0.0
+$c-warning:                 #FFA000;
+$c-warning-text:            #FFF;
+$c-warning-hover:           #FFC107;
+$c-warning-hover-text:      #FFF;
+
+// Info color for actions
+// @since 1.0.0
+$c-info:                    #03A9F4;
+$c-info-text:               $c-white;
+$c-info-hover:              #0288D1;
+$c-info-hover-text:         $c-white;
+
+// Gray colors
+// @since 1.0.0
+$c-gray:                    #999;
+$c-gray-lighter:            #DDD;

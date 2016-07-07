@@ -1,0 +1,60 @@
+// Typography styling.
+//
+// @author Alejandro Mostajo
+// @author 10Quality
+// @license MIT
+// Version 1.0.0
+
+@import 'colors';
+
+p[class="text-muted"],
+span[class="text-muted"],
+div[class="text-muted"]
+{
+    color: $c-gray;
+}
+
+p[class="text-info"],
+span[class="text-info"],
+div[class="text-info"]
+{
+    color: $c-info;
+
+    &:hover
+    {
+        color: $c-info-hover;
+    }
+}
+
+p[class="text-danger"],
+span[class="text-danger"],
+div[class="text-danger"]
+{
+    color: $c-danger;
+
+    &:hover
+    {
+        color: $c-danger-hover;
+    }
+}
+
+p[class="text-center"],
+span[class="text-center"],
+div[class="text-center"]
+{
+    text-align: center;
+}
+
+p[class="text-left"],
+span[class="text-left"],
+div[class="text-left"]
+{
+    text-align: left;
+}
+
+p[class="text-right"],
+span[class="text-right"],
+div[class="text-right"]
+{
+    text-align: right;
+}
