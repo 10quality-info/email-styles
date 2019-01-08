@@ -8,6 +8,14 @@ Need professional looking emails? Stylize your emails for Gmail, Hotmail, Outloo
     -  [Basic Structure](#basic-structure)
 -  [License](#license)
 
+## Install
+
+Copy and paste `dist/style.min.css` or user node:
+
+```
+npm install email-styles
+```
+
 ## Usage
 
 To use the framework, simply copy the content of the minified version, located at `dist/style.min.css`, in your emails template `head` section:
@@ -62,4 +70,4 @@ See [DEMO](http://codepen.io/amostajo/pen/RRkygo).
 
 The MIT License (MIT)
 
-Copyright (c) 2016 [10Quality](http://www.10quality.com/).
+Copyright (c) 2018 [10Quality](https://www.10quality.com/).
