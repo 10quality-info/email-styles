@@ -58,3 +58,10 @@ div[class="text-right"]
 {
     text-align: right;
 }
+
+p[class="text-justify"],
+span[class="text-justify"],
+div[class="text-justify"]
+{
+    text-align: justify;
+}

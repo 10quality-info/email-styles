@@ -3,14 +3,15 @@
 // @author Alejandro Mostajo
 // @author 10Quality
 // @license MIT
-// Version 1.0.0
+// Version 1.1.0
 
 @mixin btn()
 {
+    display: inline-block;
     padding: 10px 15px;
-    border-radius: 5px;
     font-weight: bold;
     text-transform: uppercase;
     font-size: 14px;
     text-decoration: none;
+    cursor: pointer;
 }

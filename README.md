@@ -8,6 +8,10 @@ Need professional looking emails? Stylize your emails for Gmail, Hotmail, Outloo
     -  [Basic Structure](#basic-structure)
 -  [License](#license)
 
+See [DEMO](http://codepen.io/amostajo/pen/RRkygo).
+
+*NOTE:* Not all email client [compatibility](https://caniuse.email/) support certain HTML and CSS tags. Keep this in mind when preparing your email template.
+
 ## Install
 
 Copy and paste `dist/style.min.css` or user node:
@@ -64,10 +68,8 @@ This is the recomended structure to use with the framework:
 
 Then use the provided CSS classes.
 
-See [DEMO](http://codepen.io/amostajo/pen/RRkygo).
-
 ## License
 
 The MIT License (MIT)
 
-Copyright (c) 2018 [10Quality](https://www.10quality.com/).
+Copyright (c) 2019 [10Quality](https://www.10quality.com/).

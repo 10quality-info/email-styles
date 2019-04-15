@@ -3,7 +3,7 @@
 // @author Alejandro Mostajo
 // @author 10Quality
 // @license MIT
-// Version 1.0.0
+// Version 1.1.0
 
 @import 'colors';
 
@@ -15,8 +15,8 @@ div[class="card card-warning"],
 div[class="card card-info"]
 {
     padding: 15px;
-    border-radius: 7px;
     border: 1px solid #C3C3C3;
+    margin-bottom: 20px;
 }
 
 div[class="card card-primary"]
